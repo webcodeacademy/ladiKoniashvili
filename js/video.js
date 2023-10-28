@@ -1,0 +1,21 @@
+$('.owl-carousel').owlCarousel({
+    items:5,
+    video:true,
+    merge:true,
+    loop:true,
+    margin:30,
+    video:true,
+    lazyLoad:true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause:false,
+    autoplay:true,
+    center:true,
+    responsive:{
+        480:{
+            items:2
+        },
+        600:{
+            items:4
+        }
+    }
+})
